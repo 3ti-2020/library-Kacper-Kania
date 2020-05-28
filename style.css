@@ -1,0 +1,31 @@
+.container{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: 20% 80%;
+    grid-template-areas: 
+    "a a"
+    "b c ";
+}
+.a{
+    grid-area: a;
+    background: pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.b{
+    grid-area: b;
+    background: powderblue;
+}
+.c{
+    grid-area: c;
+    background: lightgreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    color: white;
+    font-size: 50px;
+}
